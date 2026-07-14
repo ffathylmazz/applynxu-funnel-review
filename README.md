@@ -41,4 +41,4 @@ The report and prototype above are the submission; everything below is the worki
 - `COMPANY-RESEARCH.md`, `PROTO-PERSONA.md` (Amaka), `PROBLEM-STATEMENTS.md`, `OST.md` (opportunity-solution tree), `EPIC-HYPOTHESES.md`, `STAKEHOLDER-MAP.md`, `RECOMMENDATION-CANVAS-O1.md`
 
 **Evidence**
-- `invoice_2285.pdf`, `invoice-email.html` — payment evidence (F14)
+- `invoice_2285.pdf`, `invoice-email.html` — payment evidence (F14) · `monitor.log` — raw network/console capture from the live walkthrough (the C1 400s, pixel fires, CORS errors and KYC calls as they happened)
