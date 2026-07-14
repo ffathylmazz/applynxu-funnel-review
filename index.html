@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>ApplyNXU Funnel Review — Fatih Yilmaz</title>
+<style>
+:root{
+  --bg:#FBFAF7;--panel:#fff;--ink:#18181B;--muted:#56544D;--faint:#93918A;
+  --line:#E7E4DC;--line2:#EFEDE6;--mark:#F5D200;--gold:#8A6100;--green:#1F7A55;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root{--bg:#111114;--panel:#17171B;--ink:#ECEAE3;--muted:#A6A39A;--faint:#7C7A72;--line:#2A2A30;--line2:#232329;--gold:#E3B457;--green:#63C79A}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 22px}
+header{padding:64px 0 26px;background:linear-gradient(180deg,color-mix(in oklab,var(--mark) 8%,var(--bg)),var(--bg));border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.13em;text-transform:uppercase;color:var(--faint);font-weight:700}
+h1{font-size:clamp(28px,5vw,40px);margin:10px 0 0;line-height:1.15;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:17.5px;margin:12px 0 0;max-width:56ch}
+.metric{display:inline-block;border-left:3px solid var(--mark);padding:6px 0 6px 13px;margin-top:18px;font-weight:700}
+.metric small{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:600}
+main{padding:30px 0 60px}
+.hint{font-size:14px;color:var(--faint);margin:0 0 16px}
+.cards{display:grid;gap:12px}
+a.card{display:grid;grid-template-columns:44px 1fr auto;gap:14px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:16px 18px;text-decoration:none;color:var(--ink);transition:border-color .12s}
+a.card:hover{border-color:var(--gold)}
+a.card .ic{font-size:24px;text-align:center}
+a.card b{font-size:16.5px}
+a.card span{display:block;color:var(--muted);font-size:13.5px;margin-top:2px}
+a.card .go{font-family:var(--mono);font-size:13px;color:var(--gold);font-weight:700}
+a.card.primary{border-width:2px;border-color:color-mix(in oklab,var(--gold) 45%,var(--line))}
+.split{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:700;margin:26px 0 10px}
+footer{border-top:1px solid var(--line);padding:20px 0 50px;color:var(--faint);font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="kicker">◲ ApplyNXU · Application funnel review · PM final-stage assessment</p>
+    <h1>Getting more starts to finish.</h1>
+    <p class="sub">A conversion review of the Nexford application flow — grounded in a full desktop + mobile walkthrough, with a clickable prototype of the proposed fixes and engineer-ready briefs.</p>
+    <p class="metric"><small>The only metric</small>App start → App complete (pay the $25 fee)</p>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <p class="hint"><b style="color:var(--ink)">Start here ↓</b> — the focused brief is the submission; everything else is one click deeper.</p>
+    <div class="cards">
+      <a class="card primary" href="focused.html"><span class="ic">🎯</span><span><b>Focused brief — the three changes that move the number</b><span>The highest-leverage set: end the dead-ends · accept the ID people actually have · move KYC after payment. With sizing, a mockup, and an engineering brief.</span></span><span class="go">READ →</span></a>
+      <a class="card" href="deliverable.html"><span class="ic">◲</span><span><b>Full analysis</b><span>All ~30 findings with real screenshots, the off-funnel recovery loop, a developer-ready measurement plan, and a quantified impact model.</span></span><span class="go">OPEN →</span></a>
+      <a class="card" href="prototype.html"><span class="ic">▶️</span><span><b>Interactive prototype</b><span>A pixel-faithful recreation of the proposed fixed flow — toggle Broken ⟷ Fixed on every step. Responsive.</span></span><span class="go">PLAY →</span></a>
+    </div>
+    <p class="split">Engineer hand-offs</p>
+    <div class="cards">
+      <a class="card" href="eng-brief-1.html"><span class="ic">🔧</span><span><b>ENG-1 · End the register dead-end</b><span>What changes on 3 surfaces, acceptance criteria, scope, expected effect (≈ +2–6%) — with 1-click links into the prototype.</span></span><span class="go">OPEN →</span></a>
+      <a class="card" href="eng-brief-2.html"><span class="ic">🔧</span><span><b>ENG-2 · File normalization + Front/Back</b><span>Client-side convert/compress, slot states, KYC-safe scope, expected effect (≈ +4–10%).</span></span><span class="go">OPEN →</span></a>
+    </div>
+    <p class="split">Evidence &amp; working notes — how this was built</p>
+    <div class="cards">
+      <a class="card" href="https://github.com/ffathylmazz/applynxu-funnel-review/tree/main/screens"><span class="ic">📷</span><span><b>Walkthrough evidence</b><span>~86 real captures from the live desktop + mobile walkthrough, organized by flow (see INDEX.md).</span></span><span class="go">BROWSE →</span></a>
+      <a class="card" href="https://github.com/ffathylmazz/applynxu-funnel-review/tree/main/working-notes"><span class="ic">🗂</span><span><b>Working notes</b><span>The thinking behind the report: findings log, impact model, tracking plan, persona, OST, stakeholder map, de-risk plan, eng briefs.</span></span><span class="go">BROWSE →</span></a>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="wrap">Prepared by Fatih Yilmaz · Nexford University PM final-stage assessment · grounded in a live walkthrough · 2026</div>
+</footer>
+</body>
+</html>
